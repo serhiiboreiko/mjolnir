@@ -14,3 +14,6 @@ Roadmap:
 - setup the project with tauri + typescript + pnpm
 - install dependencies: webtorrent
 - try some basic stuff
+- draw design for base functionality
+- start implementing with webgl
+- add more information here ...
