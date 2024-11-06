@@ -1,5 +1,6 @@
 # Mjolnir
-Eh, will see if it works out as I think it will, then will I update the description
+
+![App Icon](/src-tauri/icons/1024x1024.png | width=200)
 
 ---
 
