@@ -12,8 +12,8 @@ Tools:
 - tauri for macos application
 
 Roadmap:
-- setup the project with tauri + typescript + pnpm
-- install dependencies: webtorrent
+- ~setup the project with tauri + typescript + pnpm~
+- ~install dependencies: webtorrent~
 - try some basic stuff
 - draw design for base functionality
 - start implementing with webgl
