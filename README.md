@@ -1,5 +1,7 @@
 # Mjolnir
 
+> It's intended to be a macOS torrent client, but primarily, it's a project for me to learn new technologies like Tauri, Rust, WebGL, WebRTC, and more.
+
 ![App Icon](/src-tauri/icons/256x256.png)
 
 ---
