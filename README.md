@@ -1,6 +1,6 @@
 # Mjolnir
 
-![App Icon](/src-tauri/icons/1024x1024.png | width=200)
+![App Icon](/src-tauri/icons/1024x1024.png){: style="width:200px; height:auto;" }
 
 ---
 
