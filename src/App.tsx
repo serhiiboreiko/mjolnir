@@ -1,19 +1,19 @@
-import { useState } from "preact/hooks";
+import { useState } from 'preact/hooks';
 import styled from 'styled-components';
-import { invoke } from "@tauri-apps/api/core";
-import "./App.css";
+import { invoke } from '@tauri-apps/api/core';
+import './App.css';
 
 const Title = styled.h1`
   color: white;
 `;
 
 function App() {
-  const [greetMsg, setGreetMsg] = useState("");
-  const [name, setName] = useState("");
+  const [greetMsg, setGreetMsg] = useState('');
+  const [name, setName] = useState('');
 
   async function greet() {
     // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
-    setGreetMsg(await invoke("greet", { name }));
+    setGreetMsg(await invoke('greet', { name }));
   }
 
   return (
@@ -26,14 +26,14 @@ function App() {
 
       <form
         class="row"
-        onSubmit={(e) => {
+        onSubmit={e => {
           e.preventDefault();
           greet();
         }}
       >
         <input
           id="greet-input"
-          onInput={(e) => setName(e.currentTarget.value)}
+          onInput={e => setName(e.currentTarget.value)}
           placeholder="Enter a name..."
         />
         <button type="submit">Greet</button>
