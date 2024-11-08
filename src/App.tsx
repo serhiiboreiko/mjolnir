@@ -1,6 +1,11 @@
 import { useState } from "preact/hooks";
+import styled from 'styled-components';
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
+
+const Title = styled.h1`
+  color: white;
+`;
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
@@ -13,7 +18,7 @@ function App() {
 
   return (
     <main class="container">
-      <h1>Welcome to Mjolnir</h1>
+      <Title>Welcome to Mjolnir</Title>
 
       <div class="row">
         <img src="/logo.svg" class="logo" alt="Mjolnir logo" />
